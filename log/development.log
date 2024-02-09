@@ -1108,3 +1108,48 @@ Processing by TasksController#index as HTML
 Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.1ms | Allocations: 2067)
 
 
+Started GET "/" for 127.0.0.1 at 2024-02-09 15:47:55 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.0ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:16
+  Rendered tasks/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 12075)
+  Rendered layout layouts/application.html.erb (Duration: 187.9ms | Allocations: 129875)
+Completed 200 OK in 206ms (Views: 189.3ms | ActiveRecord: 1.0ms | Allocations: 139943)
+
+
+Started GET "/" for 127.0.0.1 at 2024-02-09 15:48:44 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.0ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:16
+  Rendered tasks/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 4290)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 10973)
+Completed 200 OK in 14ms (Views: 11.6ms | ActiveRecord: 1.1ms | Allocations: 12817)
+
+
+Started GET "/" for 127.0.0.1 at 2024-02-09 15:48:45 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:16
+  Rendered tasks/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 939)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 6000)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.1ms | Allocations: 6287)
+
+
+Started GET "/" for 127.0.0.1 at 2024-02-09 15:49:51 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.0ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/views/tasks/index.html.erb:16
+  Rendered tasks/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 4256)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 9679)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 1.1ms | Allocations: 11530)
+
+
